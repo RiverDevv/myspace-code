@@ -68,7 +68,7 @@ body {
     display: none;
 }
 .fwiendCounter>b::after {
-    content: "friends in the hood";
+    content: " friends in the garden";
     font-size: 15px;
     color: #C26DFF;
 }
