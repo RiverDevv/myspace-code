@@ -13,7 +13,7 @@ body {
 }
 
 .logo::after {
-  content: "GINGEY FROM DA HOOD";
+  content: "b u t t e r f l y";
   font-size: 20px;
   color: #C26DFF;
 }
@@ -68,7 +68,7 @@ body {
     display: none;
 }
 .fwiendCounter>b::after {
-    content: " friends in da hood";
+    content: "friends in the hood";
     font-size: 15px;
     color: #C26DFF;
 }
