@@ -1,0 +1,239 @@
+//Butterfly Theme
+body {
+  color: #C26DFF;
+  font-family: Comic Sans MS;
+  background-image: url("https://thumbs.gfycat.com/SpottedMadCockerspaniel-size_restricted.gif");
+  background-repeat: repeat;
+  background-color: #FFDBEF;
+}
+
+.logo {
+  font-size: 0px;
+  font-family: Comic Sans MS;
+}
+
+.logo::after {
+  content: "GINGEY FROM DA HOOD";
+  font-size: 20px;
+  color: #C26DFF;
+}
+
+}
+#header a:not(.logo) {
+    margin-left: 10px;
+    color: #fff;
+    font-size: small;
+    text-decoration: none;
+    font-family: Courier New;
+}
+#imgPreview img {
+    width: auto;
+    height: auto;
+    max-height: calc(100% - 10px );
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 0px solid #fff;
+    cursor: zoom-out;
+    background: url(“https://i.gifer.com/origin/d8/d80cfebb44d9cee85ae44a0ce7848282_w200.gif”);
+}
+
+#sMsg::after {
+    content: "message me!";
+    font-size: 15px;
+    color: #C26DFF;
+}
+
+#sMsg {
+    font-size: 0px;
+    color: #fff;
+}
+
+#add::after {
+    content: "add me!";
+    font-size: 15px;
+    color: #C26DFF;
+}
+
+#add {
+    font-size: 0px;
+    color: #fff;
+
+}
+#viewFriends {
+    display: none;
+}
+.fwiendCounter>b::after {
+    content: " friends in da hood";
+    font-size: 15px;
+    color: #C26DFF;
+}
+.fwiendCount {
+    color: #C26DFF;
+    font-size: 15px;
+}
+.fwiendCounter>b {
+    font-size: 0px;
+    color: #C26DFF;
+}
+.fwiendCounter>b>.uName {
+    font-size: 0px;
+    color: #C26DFF;
+}
+.topRight > .box:not(.blurbs) > .rightHead > b::after {
+    content: "check out my fwiends spaces!";
+    font-size: 25px;
+    color: #C26DFF;
+}
+.topRight > .box:not(.blurbs) > .rightHead > b > span.uName {
+    font-size: -9999px;
+}
+.topRight > .box:not(.blurbs) > .rightHead > b {
+    font-size: 0;
+}
+.blurbs.box > .rightHead > b > span.uName::after {
+    content: "about me";
+    color: #C26DFF;
+    font-size: 25px;
+}
+.blurbs.box > .rightHead > b {
+    font-size: 0px;
+}
+.blurbs.box > .rightHead > b > span.uName {
+    font-size: 0px;
+    color: #fff;
+}
+
+.boxHead, .rightHead, .blurbs>.blogs>div:first-child {
+    font-family: Comic Sans MS;
+    background: linear-gradient( #B9EEFF, #B9EEFF, #B9EEFF 8%, #b9eeff94 40%, #b9eeff94 88%, #b9eeff94 93%, #B9EEFF 95%, #B9EEFF 96%, #B9EEFF);
+    padding: 4px 5px 3px 3px;
+    border-top: 1px solid #B9EEFF;
+    border-left: 1px solid #B9EEFF;
+    border-right: 1px solid #B9EEFF;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 7px;
+    font-size: 25px;
+    width: 99.50%;
+    margin-left: -5px;
+    color: #C26DFF;
+    padding-left: 6px;
+    margin-top: 0;
+    user-select: none;
+}
+
+.blurbs {
+color: #C26DFF;
+border: groove 15px #C26DFF;
+padding: 15px;
+}
+
+div#header{
+text-align: center;
+background-color: #FFDBEF;
+}
+
+h4 {
+display: none;
+}
+
+.tableRight {
+    width: 75%;
+    background: #b9eeffc9;
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+}
+
+.boxInfo {
+    border: 15px groove #C26DFF;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.url {
+    border: 15px groove #C26DFF;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tableLeft {
+    background: #e6c5fd;
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+    border: 3px inset #C26DFF; 
+}
+
+.boxButton {
+    display: inline-block;
+    width: calc( 49% - 60px );
+    padding-left: 30px;
+    height: 24px;
+    font-size: small;
+    color: #C26DFF;
+    padding-top: 7px;
+}
+
+# sMsg {
+    background-repeat: no-repeat;
+    background: url(https://cutekawaiiresources.files.wordpress.com/2016/11/hello-kitty-bullet-25.gif) no-repeat;
+}
+#add {
+    background-repeat: no-repeat;
+    background: url(https://cutekawaiiresources.files.wordpress.com/2016/11/hello-kitty-bullet-110.gif) no-repeat;
+}
+#block {
+    display: none;
+}
+#report {
+    display: none;
+}
+
+.player {
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #ffdbef9e;
+    color: #c26dff;
+    width: calc(100% - 10px );
+    border: 6px groove #C26DFF;
+}
+
+.topLeft:after {
+    content: "";
+    white-space: pre-wrap;
+    display: block;
+    height: 200px;
+    background-image: url(lll), url();
+    background-repeat: no-repeat, repeat, repeat, repeat, repeat;
+}
+
+.tableLeft > a > div {
+    overflow: hidden;
+    max-width: 115px;
+    text-align: left;
+    color: #C26DFF;
+}
+
+#header, #hSub {
+    padding: 5px !important;
+    background: #e6c5fd85 url(https://i.gifer.com/45RQ.gif) repeat!important;
+    border-bottom: 1px dashed #c26dff !important;
+    border-radius: 10 px;
+}
+
+#hSub a {
+    color: #c26dff;
+    text-decoration: none;
+}
+
+
+* {
+    cursor: url(https://www.chromaluna.com/content/cursors/pointercursors/purple_glitter_pointer.gif), auto !important;
+}
