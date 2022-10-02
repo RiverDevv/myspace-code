@@ -1,0 +1,451 @@
+<style>
+    #music {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        transition: 0.5s width;
+    }
+
+    #music:hover {
+        width: 360px;
+    }
+</style>
+
+<!-- Replace these two URLs with .ogg and .mp3 versions of the song/radio station you want to play. If you don't have one or the other, you can just remove it. -->
+
+
+<style>
+
+* {
+    cursor: url('http://www.rw-designer.com/cursor-download.php?id=131743'), auto;
+}
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boogaloo&family=Lobster&family=Nanum+Brush+Script&family=Niconne&family=Patrick+Hand+SC&family=Permanent+Marker&family=Short+Stack&display=swap');
+:root{
+  --logo-blue: #516138;
+  --darker-blue: #516138;
+  --lighter-blue: #9e7061;
+  --even-lighter-blue: #ecce9c;
+  --lightest-blue: #efd6ae;
+  --dark-orange: #272822;
+  --light-orange: #516138;
+  --even-lighter-orange: #EFD6AE;
+  --green: ;
+}
+body{
+background-image: url(https://murals-weblinc.netdna-ssl.com/product_images/cottagecore-mushroom-wallpaper/6196c6ed2266ed006941d547/large_thumb.jpg?c=1637271277);
+background-size: repeat;
+background-color: #E75A56;
+text-align: center;
+}
+
+}
+    .profile-pic {
+        border-radius: 500px;
+        overflow: hidden;
+    }
+
+ 
+
+main {
+    border-radius: 0 0 15px;
+    border: 2px solid rgba(0,0,0,0.7);
+    color: #cd3c37;
+    background-color: #ffdeb9d4;
+    font-family: monospace;
+
+}
+html:before {
+  background: url(https://i.stack.imgur.com/sIIwU.gif);
+  content: "";
+  height: 300%;
+  left: -50%;
+  opacity:0.1;
+  position: fixed;
+  top: -110%;
+  width: 300%;
+  pointer-events:none;
+  z-index: -1;
+  filter: brightness(100%) contrast(110%);
+}
+footer{
+    background-color: #ECCE9C;
+        border-radius: 100px;
+}
+.heading{
+    padding: 1px 0 !important;
+    color: #f0f0f0 !important;
+    border-bottom: 2px dashed;
+}
+.count{
+    color: #516138;
+}
+
+.profile .contact,
+.profile .url-info,
+.profile .table-section,
+.home-actions {
+    border: 2px solid rgba(0,0,0,0.7);
+}
+.profile .url-info {
+    display: none;
+}
+.profile h1 {
+    font-size: 2.5em;
+    text-shadow: 3px 3px #516138;
+}
+.profile .contact .heading, .profile .table-section .heading, .home-actions .heading {
+    background: #ff3535;
+    color: white;
+    padding: 2px 7px;
+}
+
+a {
+    color: #ff8282;
+    color: #0b360b;
+    text-decoration: none;
+}
+
+.profile .blurbs .heading, .profile .friends .heading {
+    background: #ff3535;
+    background: #ff3535;
+    color: #ED0707;
+    color: var(--dark-orange);
+    padding: 2px 7px;
+}
+
+.details-table td:first-child {
+    background: #ff3535;
+    background: #ff3535;
+    color: #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    width: 33%;
+}
+
+nav .links {
+    background-color: #000000;
+    background-color: #516138;
+    padding: 3.5px 16px 5.5px 16px;
+}
+
+
+.comments-table td:first-child, .music-table td:first-child {
+    background: #f9c56c;
+    background: #51613896;
+    text-align: center;
+    font-weight: bold;
+    width: 38%;
+}
+
+.profile .friends .person img:not(.icon) {
+    max-width: 105px;
+    max-height: 105px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+nav .top {
+    background: #1D4ED8;
+    background: #799351;
+    padding: 15px 10px 14px 10px;
+    display: flex;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: #e6f8dd;
+    font-size: 0.98em;
+    font family: comic sans;
+    font-size: max(0.98em, 12px);
+}
+nav .links .special a {
+    color: #c00;
+}
+.details-table td {
+    background: #DBEAFE;
+    background: #a0c99c00;
+    vertical-align: top;
+}
+
+.icon, .award img {
+    display: inline-block;
+    height: 1.4em;
+    width: 1.4em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.3em;
+    color: rgba(0,0,0,0);
+}
+
+.general-about .profile-pic img {
+    border-radius: 50%;
+    animation: spin 7s infinite linear;
+}
+.general-about .profile-pic img {
+    max-width: 170px;
+    max-height: 170px;
+    border-radius: 200px;
+}
+
+#comments {
+  height: 300px;
+  overflow-y: scroll;
+}
+.comments-table td:first-child img:not(.icon), .bulletin-table td:first-child img:not(.icon){
+  border: 1px solid black;
+  border-radius: 180px;
+}
+.comments-table td:first-child img:not(.icon):hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.profile .friends .person img:not(.icon):hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+
+.mood:after {
+  content: "";
+  white-space: pre-wrap;
+  display: block;
+  height: 50px;
+  background-image: url(https://64.media.tumblr.com/12087ae3083139380605bf50f913af23/f946c79821e762e4-a9/s250x400/c5a1cc80df6476bfbefa4337e9cd1093e1f68c1a.gifv);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 300px;
+}
+
+.profile-pic img:hover{
+  animation: rotation 0.3s infinite linear;
+  /*makes your pfp spin when you hover. put your avatar in the blender, for absolutely no cost !!*/
+}
+
+<style>.online { visibility: hidden; } .online img { content: url("http://www.myspacegens.com/images/online_now/311.gif"); animation-name: none; visibility: visible; hehttps://genericprofileeditor.neocities.org/deletecomment?id=6326&comment=15315ight: 35px; width: 100px; }</style>
+
+<style>
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 5px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.col.right:before {
+  content: "";
+  white-space: pre-wrap;
+  display: block;
+  height: 120px;
+  background-image: url("https://th.bing.com/th/id/R.319a000e1563749eaa856b4e18f2f661?rik=Lii9yRzjMrJJaw&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 220px;
+}
+
+</style>
+
+<style>
+/* floating animations */
+.profile-pic, .profile .friends .person img:not(.icon), .profile .friends .person p, .profile h1{ 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 0px;
+    margin-top: 0px;
+}    
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+/* for centering images in your blurbs, if you want. idk i left it in here */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body:before {
+    content: " ";
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: yourAnimation;
+    pointer-events: none;
+}
+
+</style>
+
+
+<style>
+/* contact icons */
+.contact .inner a img {
+font-size: 0;
+}
+.contact .inner a img:before {
+font-size: 1em;
+display: block
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(1) a:before {
+/* add to friends */
+content: "🍄"
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(2) a:before {
+/* add to favorite */
+content: "🍄"
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(1) a:before {
+/* send a message */
+content: "🍄"
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(2) a:before {
+/* foward to friend*/
+content: "🍄"
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(1) a:before {
+/* instant message */
+content: "🍄"
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(2) a:before {
+/* block user */
+content: "🍄"
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(1) a:before {
+/* add 2 group  */
+content: "🍄"
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(2) a:before {
+/* report */
+content: "🍄"
+}   
+</style>
+
+
+<div class="snowflakes">
+  <div class="snowflake">
+   <img src="https://th.bing.com/th/id/R.8d1a388275808f693622643a8d3bc964?rik=NAxIcWJfeTULtg&riu=http%3a%2f%2frockylouproductions.com%2fblog_wp%2fwp-content%2fuploads%2f2013%2f11%2fMushroomSpin-Transparent.gif&ehk=iU14pHc73c3sax2c0nDeixvq1KnYehi%2bQdjL%2bQ3k80s%3d&risl=&pid=ImgRaw&r=0"/>
+  </div>
+  <div class="snowflake">
+  <img src="https://th.bing.com/th/id/R.8d1a388275808f693622643a8d3bc964?rik=NAxIcWJfeTULtg&riu=http%3a%2f%2frockylouproductions.com%2fblog_wp%2fwp-content%2fuploads%2f2013%2f11%2fMushroomSpin-Transparent.gif&ehk=iU14pHc73c3sax2c0nDeixvq1KnYehi%2bQdjL%2bQ3k80s%3d&risl=&pid=ImgRaw&r=0"/>
+  </div>
+  <div class="snowflake">
+  <img src="https://th.bing.com/th/id/R.8d1a388275808f693622643a8d3bc964?rik=NAxIcWJfeTULtg&riu=http%3a%2f%2frockylouproductions.com%2fblog_wp%2fwp-content%2fuploads%2f2013%2f11%2fMushroomSpin-Transparent.gif&ehk=iU14pHc73c3sax2c0nDeixvq1KnYehi%2bQdjL%2bQ3k80s%3d&risl=&pid=ImgRaw&r=0"/>
+  </div>
+  <div class="snowflake">
+  <img src="https://th.bing.com/th/id/R.8d1a388275808f693622643a8d3bc964?rik=NAxIcWJfeTULtg&riu=http%3a%2f%2frockylouproductions.com%2fblog_wp%2fwp-content%2fuploads%2f2013%2f11%2fMushroomSpin-Transparent.gif&ehk=iU14pHc73c3sax2c0nDeixvq1KnYehi%2bQdjL%2bQ3k80s%3d&risl=&pid=ImgRaw&r=0"/>
+  </div>
+  <div class="snowflake">
+  <img src="https://th.bing.com/th/id/R.8d1a388275808f693622643a8d3bc964?rik=NAxIcWJfeTULtg&riu=http%3a%2f%2frockylouproductions.com%2fblog_wp%2fwp-content%2fuploads%2f2013%2f11%2fMushroomSpin-Transparent.gif&ehk=iU14pHc73c3sax2c0nDeixvq1KnYehi%2bQdjL%2bQ3k80s%3d&risl=&pid=ImgRaw&r=0"/>
+  </div>
+  <div class="snowflake">
+    <img src="https://th.bing.com/th/id/R.8d1a388275808f693622643a8d3bc964?rik=NAxIcWJfeTULtg&riu=http%3a%2f%2frockylouproductions.com%2fblog_wp%2fwp-content%2fuploads%2f2013%2f11%2fMushroomSpin-Transparent.gif&ehk=iU14pHc73c3sax2c0nDeixvq1KnYehi%2bQdjL%2bQ3k80s%3d&risl=&pid=ImgRaw&r=0"/>
+  </div>
+  <div class="snowflake">
+    <img src="https://th.bing.com/th/id/R.8d1a388275808f693622643a8d3bc964?rik=NAxIcWJfeTULtg&riu=http%3a%2f%2frockylouproductions.com%2fblog_wp%2fwp-content%2fuploads%2f2013%2f11%2fMushroomSpin-Transparent.gif&ehk=iU14pHc73c3sax2c0nDeixvq1KnYehi%2bQdjL%2bQ3k80s%3d&risl=&pid=ImgRaw&r=0"/>
+  </div>
+  <div class="snowflake">
+     <img src="https://th.bing.com/th/id/R.8d1a388275808f693622643a8d3bc964?rik=NAxIcWJfeTULtg&riu=http%3a%2f%2frockylouproductions.com%2fblog_wp%2fwp-content%2fuploads%2f2013%2f11%2fMushroomSpin-Transparent.gif&ehk=iU14pHc73c3sax2c0nDeixvq1KnYehi%2bQdjL%2bQ3k80s%3d&risl=&pid=ImgRaw&r=0&quot;/"/>
+  </div>
+  <div class="snowflake">
+    <img src="https://th.bing.com/th/id/R.8d1a388275808f693622643a8d3bc964?rik=NAxIcWJfeTULtg&riu=http%3a%2f%2frockylouproductions.com%2fblog_wp%2fwp-content%2fuploads%2f2013%2f11%2fMushroomSpin-Transparent.gif&ehk=iU14pHc73c3sax2c0nDeixvq1KnYehi%2bQdjL%2bQ3k80s%3d&risl=&pid=ImgRaw&r=0"/>
+  </div>
+  <div class="snowflake">
+    <img src="https://th.bing.com/th/id/R.8d1a388275808f693622643a8d3bc964?rik=NAxIcWJfeTULtg&riu=http%3a%2f%2frockylouproductions.com%2fblog_wp%2fwp-content%2fuploads%2f2013%2f11%2fMushroomSpin-Transparent.gif&ehk=iU14pHc73c3sax2c0nDeixvq1KnYehi%2bQdjL%2bQ3k80s%3d&risl=&pid=ImgRaw&r=0"/>
+  </div>
+  <div class="snowflake">
+    <img src="https://th.bing.com/th/id/R.8d1a388275808f693622643a8d3bc964?rik=NAxIcWJfeTULtg&riu=http%3a%2f%2frockylouproductions.com%2fblog_wp%2fwp-content%2fuploads%2f2013%2f11%2fMushroomSpin-Transparent.gif&ehk=iU14pHc73c3sax2c0nDeixvq1KnYehi%2bQdjL%2bQ3k80s%3d&risl=&pid=ImgRaw&r=0"/>
+  </div>
+</div>
+<img id="mushroom" src="https://myspace.windows93.net/u/85164/avatar.jpg"/>
+  
+
+<img id="cat" src="https://th.bing.com/th/id/R.e6d6318905707cc7500034486a9ceb4d?rik=BPMRBz5k7zezrA&pid=ImgRaw&r=0"/>
+  
+<style>
+
+#mushroom {
+    width: 350px;
+    position: absolute;
+    top: 700px;
+    left: 20px;
+}
+#envolope {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+#cat {
+    position: absolute;
+    top: 20px;
+    right: 150px;
+    max-height: 400px;
+    max-width: 595px;
+}
+
+
+</style>
+
+<style>
+/* customizable snowflake styling */
+.snowflake {
+  color: #27cff5;
+  font-size: 2em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 0px rgba(0,0,0,0.7);
+}
+
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}</style>
+
+
+<style>
+    #music {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        transition: 0.5s width;
+    }
+
+    #music:hover {
+        width: 360px;
+    }
+</style>
+
