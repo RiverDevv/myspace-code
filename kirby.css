@@ -1,0 +1,364 @@
+<style>
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+</style>
+
+
+<style>
+.profile-pic img {
+  border: solid black 1px;
+  border-radius: 180px;
+}
+.profile-pic img:hover{
+  animation: rotation 0.3s infinite linear;
+}
+</style>
+
+<style>
+    }
+.profile-pic img {
+  border: solid black 1px;
+  border-radius: 180px;
+}
+.profile-pic img:hover{
+  animation: rotation 0.3s infinite linear;
+}
+</style>
+<style>
+    body {
+        background: url(https://i.pinimg.com/736x/01/98/ec/0198ec17e6c6fa9740d64f054b7c014d.jpg)
+        fixed;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        -webkit-background-size:cover;
+        background-size:cover;
+    }
+</style>
+
+<style>
+   /* changes ALL headings to different colors. */
+   .profile .blurbs .heading,
+   .profile .friends .heading{
+       background-color: #FFBACE;
+   }
+   
+</style>
+<style>
+    .profile .contact .heading,
+    .profile .table-section .heading{
+        background-color:#FFBACE;
+    }
+</style>
+
+<style>
+    .profile {
+        background:#FFF5F8;
+    }
+</style>
+
+<style>
+    @import url('@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');');
+p,h1,h2,h3,h4{
+    font-family: 'Fredoka One', cursive;
+}
+</style>
+
+<style>
+p, h2 {
+     color: #63BBE1;
+}
+</style>
+
+<style>
+    }
+h1, .count, .friends a p {
+     color: #63BBE1;
+}
+</style>
+
+<style>
+    }
+
+h3 , h4, h5, .url-info b {
+    color: #63BBE1;
+}
+</style>
+
+<style>
+      }
+.profile {
+    background-color: #63BBE1;
+    color: #; /
+    
+}
+</style>
+<style>
+
+h3 , h4, h5, .url-info b {
+    color: #63BBE1;
+}
+</style>
+
+<style>
+  
+a {
+     color: #63BBE1;
+}
+</style>
+<style>
+
+p, h2 {
+     color: #63BBE1;
+}
+</style>
+
+<style>
+    }
+nav
+{
+font-family: 'Fredoka One', cursive;
+}
+nav .top
+{
+
+}
+nav .links
+{
+text-align: center;
+}
+.profile .contact, .profile .url-info, .profile .table-section, .home-actions
+{
+border: 2px #63BBE1;
+}
+a
+{
+color: #63BBE1;
+}
+a:hover
+{
+color: #63BBE1;
+}
+</style>
+<style>
+    }
+.profile h1
+{
+font-family: Arial;
+background-color: rgb(22,22,22);
+text-align: center;
+font-size: 2em;
+border: 2px solid limegreen;
+}
+.profile .blurbs .section h4, .count
+{
+color: #63BBE1;
+}
+h4
+{
+</style>
+<style>
+}
+
+.general-about{
+  position: relative;
+  margin-top: 20px;
+}
+</style>
+<style>
+
+
+
+:root {
+        --logo-blue: #63BBE1;
+        --darker-blue: #63BBE1;
+        --lighter-blue: #F692B5;
+        --even-lighter-blue: #A9E2FB;
+        --lightest-blue: #A9E2FB;
+        --dark-orange: #A9E2FB;
+        --light-orange: #A9E2FB;
+        --even-lighter-orange: #A9E2FB;
+        --green: #A9E2FB;
+    }
+
+</style>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+font-size: 30px !important;
+font-family: 'Press Start 2P', cursive;
+text-transform:uppercase !important;
+padding-left: 2px !important;
+}
+</style> 
+
+<style> 
+
+.profile h1{
+background: -webkit-linear-gradient(#A9E2FB, #FBA9C5);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+</style>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Paytone+One&display=swap');
+h4{
+font-size: 16px !important;
+font-family: 'Paytone One', sans-serif;	
+text-transform:uppercase !important;
+padding-left: 2px !important;
+
+background: -webkit-linear-gradient(#3C1F29, #85465C);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+</style>
+
+<style>
+
+    .profile .friends .inner, .profile .blurbs .section h4{
+    text-align: center;
+    }
+</style>
+
+<style>
+
+    .count {
+        color: #FFA8C5;
+    }
+</style>
+
+<style>
+
+
+main {
+border-radius:15px;
+border: 2px dotted rgba(60, 31, 41)
+}
+</style>
+
+<style>
+
+.profile .friends .person img:not(.icon) {
+border-radius:15px;
+box-shadow: 1px 0px 7px 2px rgba(255, 168, 197);
+border: 3px dotted rgba(60, 31, 41);
+}
+</style>
+
+<style>
+
+.profile .friends .comments-table td {
+background-color: rgba(2h);
+border: 1px solid rgba(2h1);  
+}
+.comments-table td*{
+}
+</style>
+
+<style>
+/* contact icons */
+.contact .inner a img {
+font-size: 0;
+}
+.contact .inner a img:before {
+font-size: 1em;
+display: block
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(1) a:before {
+/* add to friends */
+content: "♡"
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(2) a:before {
+/* add to favorite */
+content: "☆"
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(1) a:before {
+/* send a message */
+content: "✉"
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(2) a:before {
+/* foward to friend*/
+content: "*ੈ"
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(1) a:before {
+/* instant message */
+content: "✧"
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(2) a:before {
+/* block user */
+content: "➶"
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(1) a:before {
+/* add 2 group  */
+content: "𖧧"
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(2) a:before {
+/* report */
+content: "ʚ ɞ️"
+}   
+</style>
+
+<style>
+
+.mood, .blog-preview, .contact {
+    margin-bottom: 30px;
+    box-shadow: calc((400px + (25px * 2)) * 0.025) calc((400px + (25px * 2)) * 0.025) #;
+}
+
+.table-section, .blurbs, .friends {
+    margin-bottom: 30px !important;
+    box-shadow: calc((400px + (25px * 2)) * 0.025) calc((400px + (25px * 2)) * 0.025) #;
+}
+
+.friends {
+    margin-top: 10px!important;
+}
+
+.profile-info {
+    background: #FFEDF3;
+    border: var(--borders)!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-bottom: 30px;
+    box-shadow: calc((400px + (25px * 2)) * 0.025) calc((400px + (25px * 2)) * 0.025) #;
+}
+</style>
+
+<style>
+
+.online {
+    content: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/777cdab1-5500-4f03-8dcc-1bf1407da483/d2196b2-6936db4b-da0a-49bb-bac3-256f77513ea5.gif); 20px
+}
+</style>
+
+<style>
+
+
+.online {
+    content: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/777cdab1-5500-4f03-8dcc-1bf1407da483/d2196b2-6936db4b-da0a-49bb-bac3-256f77513ea5.gif);
+    width=60
+}
+</style>
+
+<style>
+    footer{
+    background: #A9E2FB;
+    border: var(--borders);
+    padding:10px;
+    margin-top: 10px;
+}
+
+</style>
+
+<style>* {cursor: url(https://cur.cursors-4u.net/games/gam-9/gam858.ani), url(https://cur.cursors-4u.net/games/gam-9/gam858.png), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2009/02/27/kirby-walking-13.html" target="_blank" title="Kirby"><img src="https://cur.cursors-4u.net/cursor.png" alt="Kirby" style="position:absolute; top: 0px; right: 0px;"/></a>
